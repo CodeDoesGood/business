@@ -1,0 +1,44 @@
+
+/*
+  navbar
+*/
+.navbar.navbar-rl {
+  background-color: #E3E3E3;
+  border-radius: 0;
+  border: 0px transparent solid;
+  margin-bottom: 70px;
+}
+
+.navbar.navbar-rl .navbar-brand img {
+  width: 100px;
+}
+
+/*
+  content
+*/
+.content {
+  min-height: 81vh;
+}
+
+
+#lawyers-list .lawyer .airport {
+    width: 10%;
+}
+
+#lawyers-list .lawyer .city,
+#lawyers-list .lawyer .phone {
+  width: 25%;
+}
+
+/*
+  footer
+*/
+.navbar.footer-rl {
+  border-radius: 0;
+  border: 0px transparent solid;
+  margin-bottom: 0;
+}
+
+.navbar.footer-rl .navbar-text {
+  float: none;
+}
