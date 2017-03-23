@@ -146,6 +146,9 @@ fieldset[disabled] .btn-xl.active {
   background-color: #222222;
   border-color: transparent;
 }
+.navbar-custom.affix-top .nav li {
+  background-color: rgba(0,0,0,0.1);
+}
 .navbar-custom .navbar-brand {
   color: #F67A23;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
@@ -243,6 +246,11 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+}
+header .intro-img-credits {
+  font-size: 10px;
+  text-align: right;
+  margin-bottom: 10px;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
