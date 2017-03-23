@@ -2,70 +2,337 @@
 <html lang="en">
 
 <head>
-    <title>CodeDoesGood</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="We are a volunteer run group of (mostly) developers who are committed to using our technical skills to help others through our mission: To harness the cognitive surplus of the tech community towards building solutions to real problems in the world.">
+    <meta name="author" content="CodeDoesGood">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <title>Code Does Good</title>
 
-    <!-- RL CSS  -->
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
 </head>
 
-<body>
+<body id="page-top" class="index">
 
-    <nav class="navbar navbar-default navbar-rl">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">
-                    <img alt="CodeDoesGood &copy; 2017" class="img-thumbnail" src="img/logoCandidate1.png">
-                </a>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">&lt; CodeDoesGood /&gt;</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#portfolio">Projects</a></li>
+                    <li><a class="page-scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll" href="#team">Team</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">
+                  <strong>Our mission</strong> is to <strong>harness</strong> the <em>cognitive surplus</em> of the tech community towards <strong>building solutions</strong> to real problems in the <strong>world</strong>.
+                </div>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <div class="container content">
+    <!-- Projects Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/refugee-lawyers.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Refugee Lawyers Project</h4>
+                        <p class="text-muted">The Refugee Lawyers Project is a simple list of US-based attorneys ready to connect with individuals affected by the recent travel ban imposed by the government.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h3>Mission</h3>
-        <p>To harness the cognitive surplus of the tech community towards building solutions to real problems in the world.</p>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <!-- <img class="img-circle img-responsive" src="img/about/3.jpg" alt=""> -->
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2012</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <!-- <img class="img-circle img-responsive" src="img/about/4.jpg" alt=""> -->
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2014</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h3>About</h3>
-        <p>We are a group of software developers from Vancouver, BC, Canada with socially progressive ideals who have come together in an effort to help others. We each come from different backgrounds and our unique experiences have given us inside knowledge of social issues. We talked for a year about how we wanted to do a project together, all the while also talking about world issues. One day we put our passions together and CodeDoesGood was born.</p>
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Who Are We</h2>
+                    <h3 class="section-subheading text-muted">We are a group of software developers from Vancouver, BC, Canada with socially progressive ideals who have come together in an effort to help others. We each come from different backgrounds and our unique experiences have given us inside knowledge of social issues. We talked for a year about how we wanted to do a project together, all the while also talking about world issues. One day we put our passions together and CodeDoesGood was born.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/abbey.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Abbey Jackson</h4>
+                        <p class="text-muted">Project Management, Operations, Dev Hatchery</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/shahin.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Shahin Zangenehpour</h4>
+                        <p class="text-muted">Business/Financial, UX, Design</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/massimo.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Massimo Savino</h4>
+                        <p class="text-muted">Media, Marketing, Client Relations</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/team/renato.jpg" class="img-responsive img-circle" alt="">
+                      <h4>Renato Camilio</h4>
+                      <p class="text-muted">Technology, Marketing, Dev Hatchery</p>
+                      <ul class="list-inline social-buttons">
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
 
-        <p>Our first project was a list of lawyers for refugees and families and sponsors of refugees detained at airports as part of the US Government's executive order (also known as "The Muslim Ban"). One Sunday one of us approached the group with the idea and within 3 days a list was published and the names were being populated.</p>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <p>In addition to our umbrella goal of building solutions to real problems in the world, our goals going forward are:</p>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; CodeDoesGood 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/codedoesgood" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li> -->
+                        <li><a href="https://www.linkedin.com/company-beta/17986961/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-        <ul>
-          <li>to provide an avenue for new developers to be mentored,</li>
-          <li>to provide a way for nonprofits to get software inexpensively, and</li>
-          <li>to set an example for how distributed authority / decision-making can work.</li>
-        </ul>
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-        <h3>Join Us</h3>
-        <p>We are seeking developers of like mind to join us. All levels welcome, the main requirements are a desire to teach, an openness to learn, a compassionate desire to do good in the world, and free time. Our organization is volunteer-run and we welcome developers from anywhere in the world.</p>
-
-        <p>We'd love to hear also from designers, experienced marketers, legal aides, other non-profits, other professionals and basically anyone who would like to lend a hand. We are in the process of becoming a federally registered NPO (Non-Profit Organization) in Canada.</p>
-
-        <!-- <h3>Portfolio</h3> -->
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus blanditiis earum sapiente, velit, consectetur impedit optio maxime quam commodi deserunt adipisci odit sunt nisi, provident facere ipsam dolorum itaque fugit!</p> -->
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Refugee Lawyers Project</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/projects/refugee-lawyers.png" alt="">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>
+                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2014</li>
+                                    <li>Client: Round Icons</li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <nav class="navbar navbar-default footer-rl">
-        <div class="container">
-            <p class="navbar-text text-center">CodeDoesGood &copy; 2017</p>
-        </div>
-    </nav>
 
-    <!-- libs -->
-    <!-- <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script> -->
-    <!-- <script src="js/lodash.min.js" charset="utf-8"></script> -->
-    <!-- <script src="js/bootstrap.min.js"></script> -->
-    <!-- <script src="js/vue.min.js"></script> -->
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/easing.jquery.min.js" crossorigin="anonymous"></script>
 
-    <!-- core scripts -->
-    <!-- <script src="js/main.js" charset="utf-8"></script> -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact-me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.js"></script>
 </body>
 
 </html>
